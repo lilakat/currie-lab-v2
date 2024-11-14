@@ -26,8 +26,8 @@ export default function Home() {
                         className="h-full"
                     />
                     <div className="absolute inset-0 bg-black bg-opacity-60"></div>
-                    <div className="absolute flex items-center items-centerspace-x-4">
-                        <div className="relative border-r pr-2 md:pr-10">
+                    <div className="absolute flex flex-col md:flex-row items-center items-centerspace-x-4">
+                        <div className="relative md:border-r md:pr-10">
                             <Image
                                 src="/images/UofT-Logo-White.png"
                                 alt="UofT Logo"
@@ -38,16 +38,16 @@ export default function Home() {
                         </div>
 
                         <div className="pl-2 md:pl-10 tracking-normal sm:tracking-wider">
-                            <h1 className="text-white leading-tight text-4xl md:text-7xl font-bold uppercase">
+                            <h1 className="text-white text-center leading-tight text-4xl md:text-7xl font-bold uppercase">
                                 The Currie Lab
                             </h1>
-                            <p className="text-white leading-tight text-[1.23rem] md:text-[2.45rem] uppercase">
+                            <p className="text-white text-center leading-tight text-[1.256em] md:text-[2.45rem] uppercase">
                                 Cell and Systems Biology
                             </p>
-                            <p className="text-white leading-tight text-[0.88rem] md:text-[1.75rem] pb-2 uppercase">
+                            <p className="text-white text-center leading-tight text-[0.91rem] md:text-[1.75rem] pb-2 uppercase">
                                 University of Toronto Mississauga
                             </p>
-                            <div className="pl-2">
+                            <div className="pl-2 text-center md:text-left">
                                 <button onClick={scrollToBottomOfSecondImage}
                                     className="inline-block px-6 py-3 mt-4 text-white border-2 border-white border-solid rounded-lg transition hover:bg-white hover:bg-opacity-50 uppercase" >
                                     about
@@ -60,17 +60,17 @@ export default function Home() {
                 </div>
 
                 <div id="content" className="flex items-center justify-center h-[60vh]">
-                    <div className="flex flex-col justify-center text-left w-[50vw]" >
+                    <div className="flex flex-col justify-center text-left px-4 md:w-[50vw]" >
                         <div className="py-4">
                             <div className=" border-l-8 border-emerald-700 border-solid pl-4">
-                                <h1 className="text-2xl sm:text-4xl font-bold"> Welcome to the Currie Lab! </h1>
+                                <h1 className="text-xl sm:text-4xl font-bold"> Welcome to the Currie Lab! </h1>
                             </div>
                             <p className="sm:text-lg pt-4 pb-10">
                                 We seek to understand the mechanisms that govern genome organization, epigenetic gene regulation, and genome stability in health and disease. We combine structural biology, biochemistry, and cellular model systems.
                             </p>
 
                             <div className=" border-l-8 border-emerald-700 border-solid pl-4">
-                                <h1 className="text-2xl sm:text-2xl font-bold"> Research Areas</h1>
+                                <h1 className="text-xl sm:text-2xl font-bold"> Research Areas</h1>
                             </div>
                             <p className="sm:text-lg py-2">Cell Biology, Developmental Biology, Genetics / Genomics, Molecular Biology, Pathology, Proteomics, Structural Biology </p>
                         </div>
