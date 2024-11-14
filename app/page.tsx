@@ -20,14 +20,14 @@ export default function Home() {
                 <div className="relative w-full h-screen flex justify-center items-center overflow-hidden">
                     <Image
                         src="/images/scene3.png"
-                        alt="Beautiful scene"
+                        alt=""
                         layout="fill"
                         objectFit="cover"
                         className="h-full"
                     />
                     <div className="absolute inset-0 bg-black bg-opacity-60"></div>
                     <div className="absolute flex items-center items-centerspace-x-4">
-                        <div className="relative border-r pr-10">
+                        <div className="relative border-r pr-2 md:pr-10">
                             <Image
                                 src="/images/UofT-Logo-White.png"
                                 alt="UofT Logo"
@@ -37,14 +37,14 @@ export default function Home() {
                             />
                         </div>
 
-                        <div className="pl-10 leading-tight tracking-wider">
-                            <h1 className="text-white text-4xl text-justify sm:text-7xl font-bold uppercase">
+                        <div className="pl-2 md:pl-10 tracking-normal sm:tracking-wider">
+                            <h1 className="text-white leading-tight text-4xl md:text-7xl font-bold uppercase">
                                 The Currie Lab
                             </h1>
-                            <p className="text-white text-center text-[2.45rem] uppercase">
+                            <p className="text-white leading-tight text-[1.23rem] md:text-[2.45rem] uppercase">
                                 Cell and Systems Biology
                             </p>
-                            <p className="text-white text-center text-[1.75rem] pb-2 uppercase">
+                            <p className="text-white leading-tight text-[0.88rem] md:text-[1.75rem] pb-2 uppercase">
                                 University of Toronto Mississauga
                             </p>
                             <div className="pl-2">
